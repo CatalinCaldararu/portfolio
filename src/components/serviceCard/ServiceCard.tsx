@@ -4,7 +4,7 @@ import styles from "./ServiceCard.module.css";
 interface ServiceCardProps {
   title: string;
   description: string;
-  readMoreLink: string;
+  readMoreLink?: string;
   gradientClassName: string;
 }
 

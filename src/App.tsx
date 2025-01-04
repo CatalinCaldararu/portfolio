@@ -9,7 +9,6 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <main>
-        <Navigation/>
         <AboutMe/>
         <Services />
         <Footer/>
