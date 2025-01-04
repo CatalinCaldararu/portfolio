@@ -1,0 +1,15 @@
+.services {
+  text-align: center;
+  padding: 2em;
+}
+
+.servicesGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
+
+.servicesSection {
+  margin-bottom: 75px;
+}

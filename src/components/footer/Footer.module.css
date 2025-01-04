@@ -1,0 +1,23 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(135deg, #4a00e0, black);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.link {
+  margin: 0 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #FFD700;
+}

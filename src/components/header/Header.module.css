@@ -1,0 +1,14 @@
+.header {
+  background: linear-gradient(135deg, #4a00e0, black);
+  color: white;
+  text-align: center;
+  padding: 2em;
+}
+
+.socialMedia {
+  margin-top: 1em;
+}
+
+.text {
+  color: white;
+}

@@ -1,0 +1,70 @@
+.serviceSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.serviceCard {
+  border-radius: 15px;
+  padding: 2em;
+  color: white;
+  margin: 1em;
+  flex-basis: calc(25% - 2em);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.serviceCard:hover {
+  transform: translateY(-5px);
+}
+
+.serviceCard h3 {
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+}
+
+.serviceCard p {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.readMore {
+  display: block;
+  margin-top: 1em;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.readMore:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.purple-gradient {
+  background: linear-gradient(135deg, #8e2de2, #4a00e0);
+}
+
+.red-yellow-gradient {
+  background: linear-gradient(135deg, #f12711, #f5af19);
+}
+
+.lightblue-gradient {
+  background: linear-gradient(135deg, hsl(184, 70%, 54%), #5b86e5);
+}
+
+.green-gradient {
+  background: linear-gradient(135deg, #11998e, #38ef7d);
+}
+
+.pink-orange-gradient {
+  background: linear-gradient(135deg, #ee0979, #ff6a00);
+}
+
+.dark-grey-gradient {
+  background: linear-gradient(135deg, #313638, grey);
+}
