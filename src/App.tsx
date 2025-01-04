@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
-import Services from "./components/services/Services";
-import Footer from "./components/footer/Footer";
-import AboutMe from "./components/about/AboutMe";
-import Navigation from "./components/navigation/Navigation";
+
+import AboutMe from "./components/sections/about/AboutMe";
+import Services from "./components/sections/services/Services";
+import Footer from "./components/layout/footer/Footer";
 
 const App: React.FC = () => {
   return (
