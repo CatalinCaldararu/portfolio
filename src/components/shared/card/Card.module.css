@@ -1,11 +1,4 @@
-.serviceSection {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  text-align: center;
-}
-
-.serviceCard {
+.card {
   border-radius: 15px;
   padding: 2em;
   color: white;
@@ -15,36 +8,21 @@
   transition: transform 0.3s ease;
 }
 
-.serviceCard:hover {
+.card:hover {
   transform: translateY(-5px);
 }
 
-.serviceCard h3 {
+.cardTitle {
   margin-bottom: 0.5em;
   font-size: 1.5em;
 }
 
-.serviceCard p {
+.cardContent {
   font-size: 1em;
   margin-bottom: 1em;
 }
 
-.readMore {
-  display: block;
-  margin-top: 1em;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  background: rgba(255, 255, 255, 0.2);
-  padding: 0.5em 1em;
-  border-radius: 8px;
-  transition: background-color 0.3s ease;
-}
-
-.readMore:hover {
-  background: rgba(255, 255, 255, 0.3);
-}
-
+/* Gradient styles */
 .purple-gradient {
   background: linear-gradient(135deg, #8e2de2, #4a00e0);
 }

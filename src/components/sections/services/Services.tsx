@@ -1,18 +1,18 @@
 import React from "react";
 import styles from "./Services.module.css";
 import { data } from "../../../data/constants";
-import ServiceCard from "../../shared/serviceCard/ServiceCard";
+import Card from "../../shared/card/Card";
 
 const ServicesSection: React.FC = () => {
   return (
     <div className={styles.servicesSection}>
       <div className={styles.servicesGrid}>
-        {data.services.map((service) => ( 
-          <ServiceCard
+        {data.services.map((service) => (
+          <Card
             key={service.title}
             title={service.title}
-            description={service.description}
-            gradientClassName={service.gradient}
+            content={<p>{service.description}</p>}
+            gradient={service.gradient}
           />
         ))}
       </div>
